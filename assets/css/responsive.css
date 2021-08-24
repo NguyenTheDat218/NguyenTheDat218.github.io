@@ -1,0 +1,129 @@
+/*PC*/
+@media (min-width: 1024px){
+   
+}
+
+/*TABLET*/
+@media (min-width: 740px) and (max-width: 1023px){
+    .place-buy-btn {
+        padding: 15px;
+        width: 85%;
+    }
+    .contact-form .form-control {
+        padding: 20px;
+    }
+    .contact-info {
+        font-size: 24px;
+        line-height: 1.95;
+    }
+    .footer-under {
+        padding: 64px 16px;
+        font-size: 65px;
+    }
+    .footer-introduce {
+        margin: 10px;
+        font-size: 35px;
+    }
+    @keyframes modalFaceIn {
+        from{
+            transform: translateY(-350px);
+            opacity: 0;
+        }
+        to{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    .modal-container {
+        max-width: calc(105% - 32px);
+        top: -90px;
+    }
+    
+}
+
+/*MOBILE*/
+@media (max-width: 740px){
+    #header{
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #nav .subnav {
+        position:initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        padding: 5px 42px;
+        color: #fff;
+    }
+    #nav{
+        display: block;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav, .subnav{
+        box-shadow:none;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    .place-heading {       
+        font-size: 12px;     
+    }
+    #content .member-img {
+        width: 60%;
+    }
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    #tour .ticket-mobile-list{
+        width: 100%;
+        padding: 12px;
+    }
+    #contact .contact-mobile{
+        width: 100%;
+        padding-bottom: 12px;
+    }
+    #contact .contact-form-mobile{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .contact-info {
+        font-size: 18px;
+        line-height: 2;
+    }
+    #tour .s-full-width{
+        width: 100%;
+    }
+    .contact-form .SEND {
+        width: 100%;
+    }
+    .footer-under {
+        padding: 64px 16px;
+        font-size: 50px;
+    }
+    .footer-introduce {
+        margin: 20px;
+        font-size: 30px;
+    }
+    @keyframes modalFaceIn {
+        from{
+            transform: translateY(-350px);
+            opacity: 0;
+        }
+        to{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    .modal-container {
+        max-width: calc(105% - 32px);
+        top: -50px;
+    }
+}
